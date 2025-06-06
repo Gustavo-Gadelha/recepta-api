@@ -24,7 +24,6 @@ public class RecipeService {
     @Autowired
     private UserRepository userRepo;
 
-    //posso retornar somente RecipeResponseDTO
     public Recipe save(RecipeRequestDTO dto) {
         Recipe recipe = new Recipe();
         recipe.setRecipeName(dto.getRecipeName());
