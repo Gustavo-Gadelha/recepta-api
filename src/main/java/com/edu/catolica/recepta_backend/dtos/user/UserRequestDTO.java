@@ -1,4 +1,4 @@
-package com.edu.catolica.recipe_page.dto.user;
+package com.edu.catolica.recepta_backend.dtos.user;
 
 import lombok.Data;
 

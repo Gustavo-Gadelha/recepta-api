@@ -1,9 +1,9 @@
 package com.edu.catolica.recepta_backend.services;
 
+import com.edu.catolica.recepta_backend.dtos.user.UserRequestDTO;
 import com.edu.catolica.recepta_backend.models.User;
 import com.edu.catolica.recepta_backend.repositories.UserRepository;
 import com.edu.catolica.recepta_backend.security.Encoder;
-import com.edu.catolica.recipe_page.dto.user.UserRequestDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
