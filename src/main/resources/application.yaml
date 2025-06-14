@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017
+      uri: ${MONGODB_URI}
       database: recipesdb
   application:
     name: ReceptaAPI
